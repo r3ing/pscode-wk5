@@ -1,0 +1,60 @@
+// Exercise 1: Calculate the Sum of Two Numbers
+read number1
+read number2
+perform addition operation
+sum = number1+ number2
+return sum result
+
+// Exercise 2: Check if a Number is Even or Odd
+read number to evaluate
+read number
+check if remainder of integer division equals 0 
+the number is even
+if number % 2 == 0 then return the number is even 
+otherwise
+else return the number is odd 
+
+// Exercise 3: 
+Write pseudo code that will perform the following.    
+
+a) Read in 5 separate numbers.   
+b) Calculate the average of the five numbers.
+c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
+d) Write out the results found from steps b and c with a message describing what they are
+
+a) Read in 5 separate numbers.
+read number1
+read number2
+read number3
+read number4
+read number5
+
+b) calculating average using the above numbers
+to calculate average add up all the numbers and divide the result of the sum of by the number of numbers
+average = (number1 + number2 + number3 + number4 + number5) / 5
+print("the average is: ", average);
+
+c) determining the minimum and maximum of the above numbers
+Initialize min and max with number1
+min = number1
+max = number1
+
+Compare min and max with the other numbers
+if number2 < min then min = number2 
+if number2 > max then max = number2
+ 
+if number3 < min then min = number3
+if number3 > max then max = number3
+
+if number4 < min then min = number4
+if number4 > max then max = number4
+
+if number5 < min then min = number5
+if number5 > max then max = number5
+
+print("The minimum number is: ", min);
+print("The maximum number is: ", max);
+
+
+
+
